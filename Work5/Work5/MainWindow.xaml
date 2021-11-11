@@ -1,0 +1,17 @@
+﻿<Window x:Class="Work5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Work5"
+        mc:Ignorable="d"
+        Title="Информационная подсистема ведения клиентов – юридических лиц" Height="450" Width="800">
+    <Grid>
+        <Menu>
+            <MenuItem x:Name="Company" Header="Юр. лица" Click="Company_OnClick"></MenuItem>
+            <MenuItem x:Name="Person" Header="Клиенты" Click="Person_OnClick"></MenuItem>
+            <MenuItem x:Name="OrgReg" Header="Орган рег." Click="Reg_OnClick"></MenuItem>
+            <MenuItem x:Name="OrgLeg" Header="Форма" Click="Leg_OnClick"></MenuItem>
+        </Menu>
+    </Grid>
+</Window>
